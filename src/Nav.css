@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.fa-amazon{
+    position: relative;
+    top: 4px;
+}.fa-cart-shopping{
+    font-size: 30px;
+    position: absolute;
+    top: 3%;
+    left: 95%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: 14px;
+    top: -8px;
+    width: 2%;
+    border-radius: 3px;
+    background-color: rgb(179, 117, 35);
+ font-size: 22px;
+ margin-top: 22px;
+ margin-left:-20%;
+ padding: 10px;
+ cursor: pointer;
+
+}.fa-bars{
+    display: none;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    font-size: 30px;
+}.fa-xmark{
+    display: none;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    font-size: 30px;
+}
+.fa-aws{
+    margin: 9px;
+}
+
+
+
+/* navpage styles....... */
+
+.nav-page{
+background-color: darkslategray;
+height: 10vh;   
+ width: 100%;
+ 
+}
+.nav-style {
+    display: flex;
+   justify-content: space-between;
+}.nav-style h1{
+    color:rgb(208, 140, 22);
+    padding: 0px;
+    margin: 12px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}#search-bar{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 14px;
+    padding: 10px;
+    height: 3vh;
+    width: 26%;
+    background-color: antiquewhite;
+}
+
+
+.nav-link  {
+    position: relative;
+    left: -10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+.nav-link li a{
+    margin-left: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    transition: all 0.6s ease;
+}.nav-link li a.active{
+    color: rgb(250, 158, 0);
+}
+
+/* down page styless/......... */
+
+
+.down-page{
+    margin-top: 2px;
+        background-color: rgb(53, 80, 80);
+        height: 6vh;   
+         width: 100%;
+}
+
+.add{
+    position: absolute;
+    left: 76%;
+    top: 11%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}.add h6{
+    margin-top: -18px;
+    margin-left: 26px;
+}
+.down-link{
+    position: relative;
+    top: 5px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}.down-link li a{
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+
+@media (max-width:1040px){
+    .fa-bars{
+        display: flex;
+        position: absolute;
+        left: 90%;
+        top: 2%;
+        font-size: 40px;
+        margin-left: -20px;
+    }
+    .fa-xmark{
+        display: flex;
+        position: absolute;
+        left: 95%;
+        top: 2%;
+        font-size: 38px;
+        margin-left: -20px;
+    }
+    .nav-link{
+        z-index: 9;
+        background-color: rgb(154, 154, 70);
+        border-radius: 3px;
+        position: absolute;
+        top: 0px;
+        left: -80%;
+        width: 60%;
+        height: 100vh;
+        display: block;
+        align-items: center;
+        text-align: center;
+        transition: all 1s ease;
+    }  .nav-link.active{
+        left: 0px;
+    } 
+    
+    .nav-link li {
+        height: 10%;
+        font-size: 24px;
+        font-weight: 600;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        margin-left: -22px;
+    }.nav-link li a{
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
+    .nav-link li a.active{
+        color: aliceblue;
+    }#search-bar{
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        margin-left: -40%;
+        margin-top: 14px;
+        padding: 10px;
+        height: 3vh;
+        width: 26%;
+        display: none;
+    }.fa-cart-shopping{
+        font-size: 30px;
+        position: absolute;
+        top: 2%;
+        left: 56%;
+        color: rgb(237, 155, 13);
+    }
+    .fa-magnifying-glass{
+        position: relative;
+        left: -30%;
+        top: -8px;
+        width: 2%;
+        border-radius: 6px;
+        background-color: rgb(179, 117, 35);
+        font-size: 22px;
+        margin-top: 22px;
+        margin-left:-20%;
+        padding: 10px;
+        display: none;
+    }
+    .down-page{
+        display: none;
+    }.add{
+        display: none;
+    }
+
+      /* Home page styles......... */
+
+   
+     /* single  product styleeeee.....   */
+
+
+
+
+}
